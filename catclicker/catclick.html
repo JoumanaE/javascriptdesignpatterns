@@ -6,11 +6,18 @@
 </head>
 
 <body>
+    <div class="row">
     <h1> Catclick </h1>
-    <div>
+    <div id="col1">
             <img src="https://static.pexels.com/photos/207901/pexels-photo-207901.jpeg">
-            <h1 id='my-elem'> Click me: 0 </h1>
-    </div> 
+            <button id='my-elem'> Click me: 0 </h1>
+    </div>
+    <div id ="col2">
+        <img src="https://images.pexels.com/photos/127028/pexels-photo-127028.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+        <button id ='my-elem1'> Click me: 0 </button>  
+
+    </div>
+</div>
 
 <script>
 
@@ -19,6 +26,14 @@ var count =0;
 elem.addEventListener('click', function(){
     count +=1;
     elem.innerHTML = "Click me: " + count;
+
+}, false);
+
+var elem1 = document.getElementById('my-elem1');
+var count1 =0; 
+elem1.addEventListener('click', function(){
+    count1 +=1;
+    elem1.innerHTML = "Click me: " + count1;
 
 }, false);
 
