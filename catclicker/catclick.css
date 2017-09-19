@@ -1,0 +1,23 @@
+
+html, body{ 
+    background-color:#6666ff;
+    ;
+
+}
+
+img {
+margin-left:100px;
+height: 400px;
+width: 400px;
+float: middle;
+}
+
+h1{
+
+    color:white;
+    font-family: 'Lobster Two', cursive;
+    font-size:70px;
+    margin-left: 60px;
+    
+
+}
